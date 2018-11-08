@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tom's Stamp</title>
+    <link rel="shortcut icon" href="assets/img/logo/favicon.png" type="image/x-icon">
+
+	<link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet"> <!--test font-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="assets/styles.css">
+    </head>
+
+<body>
+
+	<header>
+		<div>
+			<h2><a href="#">Tom's Stamp</a></h2>
+			<nav>
+				<li><a href="#anc1">Home</a></li>
+				<li><a href="#works">Some of our works</a></li>
+				<li><a href="#anc3">Tatoos & services</a></li>
+				<li><a href="#anc4">About</a></li>
+				<li><a href="#anc5">Contacts</a></li>
+			</nav>
+		</div>
+	</header>
+
+
+	<section class="hero">
+		<div class="background-image" style="background-image: url(assets/img/bg.jpg);"></div>
+		<h1>Tatoo saloon Tom's Stamp</h1>
+		<h3>In the heart of Saint P.</h3>
+		<a href="#" class="btn">Prices</a>
+	</section>
+
+
+	<section class="our-work" id="works">
+		<div style="display:none;"> <!--slider-->
+	        <div id="ninja-slider">
+	            <div class="slider-inner">
+	                <ul>
+	                    <li>
+	                        <a class="ns-img" href="assets/img/work/1.jpg"></a>
+	                        <div class="caption">
+	                            <h3>Dummy Caption 1</h3>
+	                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus accumsan purus.</p>
+	                        </div>
+	                    </li>
+	                    <li>
+	                        <a class="ns-img" href="assets/img/work/2.jpg"></a>
+	                        <div class="caption">
+	                            <h3>Dummy Caption 2</h3>
+	                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</p>
+	                        </div>
+	                    </li>
+	                    <li>
+	                        <a class="ns-img" href="assets/img/work/3.jpg"></a>
+	                        <div class="caption">
+	                            <h3>Dummy Caption 5</h3>
+	                            <p>Proin non dui at metus suscipit bibendum.</p>
+	                        </div>
+	                    </li>
+	                    <li>
+	                        <a class="ns-img" href="assets/img/work/4.jpg"></a>
+	                        <div class="caption">
+	                            <h3>Dummy Caption 4</h3>
+	                            <p>Quisque semper dolor sed neque consequat scelerisque at sed ex. Nam gravida massa.</p>
+	                        </div>
+	                    </li>
+	                    <li>
+	                        <a class="ns-img" href="assets/img/work/5.jpg"></a>
+	                        <div class="caption">
+	                            <h3>Dummy Caption 5</h3>
+	                            <p>Proin non dui at metus suscipit bibendum.</p>
+	                        </div>
+	                    </li>
+	                    <li>
+	                        <a class="ns-img" href="assets/img/work/6.jpg"></a>
+	                        <div class="caption">
+	                            <h3>Dummy Caption 5</h3>
+	                            <p>Proin non dui at metus suscipit bibendum.</p>
+	                        </div>
+	                    </li>
+	                </ul>
+	                <div id="fsBtn" class="fs-icon" title="Expand/Close"></div>
+	            </div>
+	        </div>
+	    </div> <!--slider end-->
+
+		<h3 class="title">Some of our works</h3>
+		<hr>
+
+		<ul class="grid">
+			<li class="small" onclick="lightbox(0)" style="background-image: url(assets/img/work/1.jpg);"></li>
+			<li class="large" onclick="lightbox(1)" style="background-image: url(assets/img/work/2.jpg);"></li>
+			<li class="large" onclick="lightbox(2)" style="background-image: url(assets/img/work/3.jpg);"></li>
+			<li class="small" onclick="lightbox(3)" style="background-image: url(assets/img/work/4.jpg);"></li>
+			<li class="small" onclick="lightbox(4)" style="background-image: url(assets/img/work/5.jpg);"></li>
+			<li class="small" onclick="lightbox(5)" style="background-image: url(assets/img/work/6.jpg);"></li>
+		</div>
+	</section>
+
+
+	
+
+	<section class="features" id="anc3">
+		<h3 class="title">Tatoos & services</h3>
+		<hr>
+
+		<ul class="grid">
+			<li>
+				<i class="fas fa-jedi"></i>
+				<h4>Tatoos</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
+			</li>
+			<li>
+				<i class="fa fa-edit"></i>
+				<h4>Sketch</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
+			</li>
+			<li>
+				<i class="fa fa-camera-retro"></i>
+				<h4>Photography</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices vitae pulvinar velit.</p>
+			</li>
+		</div>
+	</section>
+
+
+	<section class="reviews" id="anc4">
+		<h3 class="title">What others say:</h3>
+		<hr>
+
+		<p class="quote">Mauris sit amet mauris a arcu eleifend ultricies eget ut dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+		<p class="author">— Patrick Farrell</p>
+
+		<p class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		<p class="author">— George Smith</p>
+
+		<p class="quote">Donec commodo dolor augue, vitae faucibus tortor tincidunt in. Aliquam vitae leo quis mi pulvinar ornare. Integer eu iaculis metus.</p>
+		<p class="author">— Kevin Blake</p>		
+	</section>
+
+
+	<section class="contact" id="anc5">
+		<h3 class="title">Contacts</h3>
+		<hr>
+		<div id="contactBox">
+			<div id="contact">
+				<div class="contactMain">
+					<h3>Phone</h3>
+					<p>555-00-00</p>
+				</div>
+				<div class="contactMain">
+					<h3>E-mail</h3>
+					<p>tomstamp@mail.ru</p>
+				</div>
+				<a href="#"><i class="fab fa-vk"></i></a>
+				<a href="#"><i class="fab fa-facebook-square"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+			</div>					
+			<div id="map"></div>
+		</div>
+	</section>
+
+	<footer>
+		<ul>
+			<li><a href="#"><i class="fab fa-vk"></i></a></li>
+			<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+			<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+		</ul>
+		<p>Saint P. <span id="year"></span>. Made by <a href="#" target="_blank">WEBOS</a>. &copy Tom's Stamp.</p>
+	</footer>
+<!-- scripts -->
+	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5b5f9e51550dffa6545f0e136c87414772214e7a810d639a85d67cf4aa42a6d4&amp;lang=ru_RU&amp;scroll=true&amp;id=map"></script>
+
+	<script type="text/javascript">
+		const now = new Date();
+		var year = document.getElementById('year');
+		year.innerHTML = now.getFullYear();
+	</script>
+
+	<script src="assets/js/slider.js" type="text/javascript"></script>
+
+    <script>
+        function lightbox(idx) {
+            //show the slider's wrapper: this is required when the transitionType has been set to "slide" in the ninja-slider.js
+            var ninjaSldr = document.getElementById("ninja-slider");
+            ninjaSldr.parentNode.style.display = "block";
+
+            nslider.init(idx);
+
+            var fsBtn = document.getElementById("fsBtn");
+            fsBtn.click();
+        }
+
+        function fsIconClick(isFullscreen, ninjaSldr) { //fsIconClick is the default event handler of the fullscreen button
+            if (isFullscreen) {
+                ninjaSldr.parentNode.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
